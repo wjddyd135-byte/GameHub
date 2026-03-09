@@ -131,7 +131,11 @@ GameHub/
 │   │   ├── TrendingCard.js
 │   │   ├── Wishlist.js
 │   │   ├── Board.js
-│   │   └── Footer.js
+│   │   ├── Footer.js
+│   │   ├── FilterMenu.js
+│   │   ├── PlatformModal.js
+│   │   ├── ScrollTop.js
+│   │   └── CommonTitle.js
 │   ├── db/               
 │   │   ├── games.js
 │   │   └── trending.js
