@@ -1,0 +1,29 @@
+.slider {
+  height:500px; 
+  /* background-image: url('../public/img/slider.jpg'); */
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.m_Hover { text-decoration: none; color: inherit; }
+.m_Hover:hover {color: green;}
+
+.start {
+  transform: scale(0);
+  transition :all 0.5s; /*end에 설정시 느낌 차이남, end는 효과 불안정할 수 있음*/
+}
+
+.end {
+  transform: scale(1);
+}
+
+/* 부가 */
+.start2 {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.end2 {
+  opacity: 1;
+}
